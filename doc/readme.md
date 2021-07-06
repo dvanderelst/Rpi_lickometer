@@ -14,7 +14,7 @@
 
      LCK    SGN
     I X I  I X I 
-    I   I  I   I
+    I   I  I   I     [BUTTON]
     I   I  I   I
     
  `LCK`: up == off, down == on

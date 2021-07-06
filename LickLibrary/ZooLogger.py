@@ -2,15 +2,19 @@ from LickLibrary import Buffer, Settings, Logger, DbConnector
 
 
 class ZooLogger:
-    def __init__(self, load_buffer=False, verbose=False):
+    def __init__(self, load_buffer=False, verbose=False, log_actions=False):
         self.table = Settings.table
         self.database = DbConnector.SQLconnector(Settings.database, Settings.table, Settings.omit_fields)
         self.buffer = Buffer.Buffer(load=load_buffer)
         self.log = Logger.Logger()
         self.log.print_comments = verbose
+        self.log_actions = log_actions
 
     def view_log(self):
         self.log.view()
+
+    def write_log(self):
+        self.log.write(Settings.database_log)
 
     def add_data(self, data, flush=True):
         # Add the data to the buffer
@@ -21,6 +25,7 @@ class ZooLogger:
         self.buffer.save()
         # if flush, then try to flush the buffer to AWS
         if flush and not self.buffer.empty: self.flush_buffer()
+        if self.log_actions: self.write_log()
 
     def get_data(self):
         data = self.database.read_data()
@@ -42,5 +47,6 @@ class ZooLogger:
         # save the updated buffer to disk
         self.log.add_comment('Saving buffer to disk')
         self.buffer.save()
+        if self.log_actions: self.write_log()
 
 
