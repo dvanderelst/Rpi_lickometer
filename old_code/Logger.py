@@ -10,6 +10,8 @@ warning_color = '#f5cba7'
 error_color = '#f5b7b1'
 message_color = '#a2d9ce'
 
+# Non persistent logging -
+
 class Logger:
     def __init__(self):
         self.table = HTML.Table(header_row=['Time', 'Text'])

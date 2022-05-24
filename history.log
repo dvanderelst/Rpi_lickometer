@@ -1,0 +1,331 @@
+INFO:root:Adding data to buffer ['Tue Jul  6 12:21:27 2021', 'testing']
+INFO:root:Adding data to buffer ['Tue Jul  6 12:21:31 2021', 'testing']
+2021-07-06 12:28:00,432 [add_data            ] [INFO      ]  Adding data to buffer ['Tue Jul  6 12:28:00 2021', 'testing']
+2021-07-06 12:28:04,455 [add_data            ] [INFO      ]  Adding data to buffer ['Tue Jul  6 12:28:04 2021', 'testing']
+2021-07-06 12:28:08,473 [add_data            ] [INFO      ]  Adding data to buffer ['Tue Jul  6 12:28:08 2021', 'testing']
+2021-07-06 12:28:12,492 [add_data            ] [INFO      ]  Adding data to buffer ['Tue Jul  6 12:28:12 2021', 'testing']
+2021-07-06 12:28:35,039 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:28:35 2021', 'testing']
+2021-07-06 12:28:39,058 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:28:39 2021', 'testing']
+2021-07-06 12:28:43,076 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:28:43 2021', 'testing']
+2021-07-06 12:28:47,095 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:28:47 2021', 'testing']
+2021-07-06 12:28:51,114 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:28:51 2021', 'testing']
+2021-07-06 12:30:37,771 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:30:37 2021', 'testing']
+2021-07-06 12:30:37,773 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:30:37,775 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:30:41,822 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:30:41 2021', 'testing']
+2021-07-06 12:30:41,823 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:30:41,825 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:30:56,633 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:30:56 2021', 'testing']
+2021-07-06 12:30:56,634 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:30:56,641 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:30:56,642 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:30:56 2021', 'testing']
+2021-07-06 12:31:00,675 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:31:00 2021', 'testing']
+2021-07-06 12:31:00,676 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:31:00,677 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:31:00,678 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:31:00 2021', 'testing']
+2021-07-06 12:32:08,919 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:32:08 2021', 'testing']
+2021-07-06 12:32:08,920 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:32:08,922 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:32:08,923 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:32:08 2021', 'testing']
+2021-07-06 12:32:09,045 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:32:09,046 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:32:13,065 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:32:13 2021', 'testing']
+2021-07-06 12:32:13,066 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:32:13,068 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:32:13,068 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:32:13 2021', 'testing']
+2021-07-06 12:32:13,093 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:32:13,094 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:06,552 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:06 2021 0
+2021-07-06 12:33:10,557 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:10 2021', 'testing']
+2021-07-06 12:33:10,558 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:10,560 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:10,561 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:10 2021', 'testing']
+2021-07-06 12:33:10,588 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:10,589 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:10,602 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:10 2021 0
+2021-07-06 12:33:14,607 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:14 2021', 'testing']
+2021-07-06 12:33:14,608 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:14,610 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:14,611 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:14 2021', 'testing']
+2021-07-06 12:33:14,636 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:14,637 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:14,651 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:14 2021 0
+2021-07-06 12:33:18,656 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:18 2021', 'testing']
+2021-07-06 12:33:18,657 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:18,659 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:18,660 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:18 2021', 'testing']
+2021-07-06 12:33:18,684 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:18,685 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:18,699 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:18 2021 0
+2021-07-06 12:33:22,704 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:22 2021', 'testing']
+2021-07-06 12:33:22,705 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:22,707 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:22,707 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:22 2021', 'testing']
+2021-07-06 12:33:22,736 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:22,737 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:22,750 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:22 2021 0
+2021-07-06 12:33:26,755 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:26 2021', 'testing']
+2021-07-06 12:33:26,756 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:26,758 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:26,759 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:26 2021', 'testing']
+2021-07-06 12:33:26,786 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:26,787 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:26,801 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:26 2021 0
+2021-07-06 12:33:30,806 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:30 2021', 'testing']
+2021-07-06 12:33:30,807 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:30,808 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:30,809 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:30 2021', 'testing']
+2021-07-06 12:33:30,834 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:30,835 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:30,849 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:30 2021 0
+2021-07-06 12:33:34,854 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:34 2021', 'testing']
+2021-07-06 12:33:34,855 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:34,857 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:34,858 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:34 2021', 'testing']
+2021-07-06 12:33:34,880 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:34,881 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:34,894 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:34 2021 0
+2021-07-06 12:33:38,899 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:38 2021', 'testing']
+2021-07-06 12:33:38,900 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:38,902 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:38,903 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:38 2021', 'testing']
+2021-07-06 12:33:38,915 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:38,916 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:38,930 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:38 2021 0
+2021-07-06 12:33:42,935 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:42 2021', 'testing']
+2021-07-06 12:33:42,936 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:42,938 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:42,939 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:42 2021', 'testing']
+2021-07-06 12:33:42,951 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:42,952 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:42,966 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:42 2021 0
+2021-07-06 12:33:46,971 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:46 2021', 'testing']
+2021-07-06 12:33:46,972 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:46,974 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:46,975 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:46 2021', 'testing']
+2021-07-06 12:33:46,987 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:46,988 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:47,002 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:47 2021 0
+2021-07-06 12:33:51,007 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:51 2021', 'testing']
+2021-07-06 12:33:51,008 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:51,010 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:51,010 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:51 2021', 'testing']
+2021-07-06 12:33:51,025 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:51,026 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:51,039 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:51 2021 0
+2021-07-06 12:33:55,045 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:55 2021', 'testing']
+2021-07-06 12:33:55,046 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:55,047 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:55,048 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:55 2021', 'testing']
+2021-07-06 12:33:55,061 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:55,062 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:55,075 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:55 2021 0
+2021-07-06 12:33:59,081 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:33:59 2021', 'testing']
+2021-07-06 12:33:59,082 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:59,083 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:33:59,084 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:33:59 2021', 'testing']
+2021-07-06 12:33:59,097 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:33:59,098 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:33:59,111 [<module>       ] [INFO ]  State: Tue Jul  6 12:33:59 2021 0
+2021-07-06 12:34:03,116 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:03 2021', 'testing']
+2021-07-06 12:34:03,117 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:03,119 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:03,120 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:03 2021', 'testing']
+2021-07-06 12:34:03,132 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:03,133 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:03,147 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:03 2021 0
+2021-07-06 12:34:07,152 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:07 2021', 'testing']
+2021-07-06 12:34:07,153 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:07,155 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:07,156 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:07 2021', 'testing']
+2021-07-06 12:34:07,168 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:07,169 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:07,182 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:07 2021 0
+2021-07-06 12:34:11,187 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:11 2021', 'testing']
+2021-07-06 12:34:11,188 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:11,190 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:11,191 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:11 2021', 'testing']
+2021-07-06 12:34:11,204 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:11,205 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:11,218 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:11 2021 0
+2021-07-06 12:34:15,223 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:15 2021', 'testing']
+2021-07-06 12:34:15,224 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:15,226 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:15,226 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:15 2021', 'testing']
+2021-07-06 12:34:15,239 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:15,240 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:15,253 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:15 2021 0
+2021-07-06 12:34:19,259 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:19 2021', 'testing']
+2021-07-06 12:34:19,260 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:19,261 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:19,262 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:19 2021', 'testing']
+2021-07-06 12:34:19,275 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:19,275 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:19,289 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:19 2021 0
+2021-07-06 12:34:23,294 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:23 2021', 'testing']
+2021-07-06 12:34:23,295 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:23,297 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:23,298 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:23 2021', 'testing']
+2021-07-06 12:34:23,312 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:23,313 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:23,327 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:23 2021 0
+2021-07-06 12:34:27,332 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:27 2021', 'testing']
+2021-07-06 12:34:27,333 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:27,334 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:27,335 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:27 2021', 'testing']
+2021-07-06 12:34:27,348 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:27,349 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:27,363 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:27 2021 0
+2021-07-06 12:34:31,368 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:31 2021', 'testing']
+2021-07-06 12:34:31,370 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:31,372 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:31,373 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:31 2021', 'testing']
+2021-07-06 12:34:31,386 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:31,387 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:31,400 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:31 2021 0
+2021-07-06 12:34:35,405 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:35 2021', 'testing']
+2021-07-06 12:34:35,406 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:35,408 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:35,409 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:35 2021', 'testing']
+2021-07-06 12:34:35,421 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:35,422 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:35,436 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:35 2021 0
+2021-07-06 12:34:39,441 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:39 2021', 'testing']
+2021-07-06 12:34:39,442 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:39,443 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:39,445 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:39 2021', 'testing']
+2021-07-06 12:34:39,457 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:39,458 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:39,471 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:39 2021 0
+2021-07-06 12:34:43,477 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:43 2021', 'testing']
+2021-07-06 12:34:43,478 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:43,479 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:43,480 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:43 2021', 'testing']
+2021-07-06 12:34:43,493 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:43,494 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:43,507 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:43 2021 0
+2021-07-06 12:34:47,512 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:47 2021', 'testing']
+2021-07-06 12:34:47,513 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:47,515 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:47,516 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:47 2021', 'testing']
+2021-07-06 12:34:47,529 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:47,530 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:47,543 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:47 2021 0
+2021-07-06 12:34:51,549 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:51 2021', 'testing']
+2021-07-06 12:34:51,550 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:51,551 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:51,552 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:51 2021', 'testing']
+2021-07-06 12:34:51,565 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:51,566 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:51,579 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:51 2021 0
+2021-07-06 12:34:55,585 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:55 2021', 'testing']
+2021-07-06 12:34:55,585 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:55,587 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:55,588 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:55 2021', 'testing']
+2021-07-06 12:34:55,603 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:55,604 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:55,617 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:55 2021 0
+2021-07-06 12:34:59,622 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:34:59 2021', 'testing']
+2021-07-06 12:34:59,623 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:59,625 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:34:59,626 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:34:59 2021', 'testing']
+2021-07-06 12:34:59,639 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:34:59,640 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:34:59,653 [<module>       ] [INFO ]  State: Tue Jul  6 12:34:59 2021 0
+2021-07-06 12:35:15,040 [get_lick       ] [INFO ]  lick value: 0
+2021-07-06 12:35:15,044 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:15 2021 0
+2021-07-06 12:35:15,045 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:18,049 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:19,051 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:19 2021', 'testing']
+2021-07-06 12:35:19,052 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:19,054 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:19,055 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:19 2021', 'testing']
+2021-07-06 12:35:19,069 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:19,070 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:19,079 [get_lick       ] [INFO ]  lick value: 0
+2021-07-06 12:35:19,086 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:19 2021 0
+2021-07-06 12:35:19,087 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:22,090 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:23,093 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:23 2021', 'testing']
+2021-07-06 12:35:23,094 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:23,095 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:23,096 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:23 2021', 'testing']
+2021-07-06 12:35:23,110 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:23,110 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:23,118 [get_lick       ] [INFO ]  lick value: 0
+2021-07-06 12:35:23,125 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:23 2021 0
+2021-07-06 12:35:23,126 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:26,130 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:28,314 [get_lick       ] [INFO ]  Analog lick value: 0
+2021-07-06 12:35:28,318 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:28 2021 0
+2021-07-06 12:35:28,319 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:31,322 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:32,325 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:32 2021', 'testing']
+2021-07-06 12:35:32,326 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:32,327 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:32,328 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:32 2021', 'testing']
+2021-07-06 12:35:32,343 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:32,344 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:32,352 [get_lick       ] [INFO ]  Analog lick value: 64
+2021-07-06 12:35:32,359 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:32 2021 64
+2021-07-06 12:35:32,360 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:35,364 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:36,366 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:36 2021', 'testing']
+2021-07-06 12:35:36,367 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:36,369 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:36,370 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:36 2021', 'testing']
+2021-07-06 12:35:36,386 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:36,387 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:36,395 [get_lick       ] [INFO ]  Analog lick value: 0
+2021-07-06 12:35:36,401 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:36 2021 0
+2021-07-06 12:35:36,402 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:39,406 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:40,408 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:40 2021', 'testing']
+2021-07-06 12:35:40,409 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:40,411 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:40,412 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:40 2021', 'testing']
+2021-07-06 12:35:40,425 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:40,426 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:40,433 [get_lick       ] [INFO ]  Analog lick value: 0
+2021-07-06 12:35:40,440 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:40 2021 0
+2021-07-06 12:35:40,441 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:43,445 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:44,447 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:44 2021', 'testing']
+2021-07-06 12:35:44,448 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:44,450 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:44,450 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:44 2021', 'testing']
+2021-07-06 12:35:44,464 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:44,465 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:44,472 [get_lick       ] [INFO ]  Analog lick value: 0
+2021-07-06 12:35:44,479 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:44 2021 0
+2021-07-06 12:35:44,480 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:47,484 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:48,486 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:48 2021', 'testing']
+2021-07-06 12:35:48,487 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:48,489 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:48,490 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:48 2021', 'testing']
+2021-07-06 12:35:48,503 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:48,504 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:48,511 [get_lick       ] [INFO ]  Analog lick value: 0
+2021-07-06 12:35:48,518 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:48 2021 0
+2021-07-06 12:35:48,519 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:51,523 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:52,525 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:52 2021', 'testing']
+2021-07-06 12:35:52,526 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:52,528 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:52,529 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:52 2021', 'testing']
+2021-07-06 12:35:52,542 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:52,543 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:52,551 [get_lick       ] [INFO ]  Analog lick value: 0
+2021-07-06 12:35:52,558 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:52 2021 0
+2021-07-06 12:35:52,558 [on             ] [INFO ]  Feeder on
+2021-07-06 12:35:55,562 [off            ] [INFO ]  Feeder off
+2021-07-06 12:35:56,564 [add_data       ] [INFO ]  Adding data to buffer ['Tue Jul  6 12:35:56 2021', 'testing']
+2021-07-06 12:35:56,565 [add_data       ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:56,567 [flush_buffer   ] [INFO ]  Trying to flush buffer
+2021-07-06 12:35:56,568 [flush_buffer   ] [INFO ]  Flushing: ['Tue Jul  6 12:35:56 2021', 'testing']
+2021-07-06 12:35:56,582 [flush_buffer   ] [INFO ]  Remaining items in buffer: 0
+2021-07-06 12:35:56,583 [flush_buffer   ] [INFO ]  Saving buffer to disk
+2021-07-06 12:35:56,591 [get_lick       ] [INFO ]  Analog lick value: 0
+2021-07-06 12:35:56,598 [<module>       ] [INFO ]  State: Tue Jul  6 12:35:56 2021 0
+2021-07-06 12:35:56,599 [on             ] [INFO ]  Feeder on

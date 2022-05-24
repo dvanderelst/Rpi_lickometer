@@ -1,3 +1,5 @@
+import logging
+
 from LickLibrary import Settings, myAnalog
 import RPi.GPIO as GPIO
 
@@ -14,9 +16,12 @@ class LickDetector:
         if self.analog:
             value = (Settings.max_analog_value - self.input.analog_lick())
             if value < 0: value = 0
+            logging.info('Analog lick value: ' + str(value))
             return value
         if not self.analog:
-            return (1 - GPIO.input(Settings.lick_pin))
+            value = (1 - GPIO.input(Settings.lick_pin))
+            logging.info('Digital lick value: ' + str(value))
+            return value
 
 
 class Feeder:
@@ -24,7 +29,9 @@ class Feeder:
         GPIO.setup(Settings.feeder_pin, GPIO.OUT)
 
     def on(self):
+        logging.info('Feeder on')
         GPIO.output(Settings.feeder_pin, True)
 
     def off(self):
+        logging.info('Feeder off')
         GPIO.output(Settings.feeder_pin, False)

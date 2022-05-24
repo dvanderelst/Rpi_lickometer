@@ -18,7 +18,7 @@ feeder = Control.Feeder()
 analog = myAnalog.myAnalog()
 counter = Misc.Counter(1)
 detector = Control.LickDetector(analog=use_analog)
-logger = ZooLogger.ZooLogger(verbose=True)
+logger = ZooLogger.ZooDatabase(verbose=True)
 
 lick_counter = 0
 last_lick_time = 'None'
