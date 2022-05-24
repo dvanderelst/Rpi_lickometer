@@ -18,8 +18,12 @@ lick_pin = 5 #29
 button_pin = 16 #36
 feeder_pin = 6 #31
 
-e_tape_channel = 7
-analog_lick_channel = 2
+scale1_dt = 11
+scale1_sck = 13
+scale2_dt = 15
+scale2_sck = 16
+
+analog_lick_channel = 0
 max_analog_value = 65472
 cs_pin = board.D8
 
