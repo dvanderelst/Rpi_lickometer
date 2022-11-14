@@ -7,7 +7,9 @@ button = myDigitalPin.myDigitalPin('input', Settings.button_pin)
 
 value = button.get()
 
-for i in range(5):
+for i in range(100):
+    print('---------------')
+    value = button.get()
     print('Button state: ', value)
     led.set(True)
     time.sleep(0.1)
