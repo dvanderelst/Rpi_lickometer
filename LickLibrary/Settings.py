@@ -16,6 +16,7 @@ omit_fields = ['row_id']
 GPIO.setmode(GPIO.BCM)
 lick_pin = 5 #29
 button_pin = 16 #36
+button_led_pin = 24 #36
 feeder_pin = 6 #31
 
 analog_lick_channel = 0
