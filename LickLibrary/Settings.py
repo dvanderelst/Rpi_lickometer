@@ -27,7 +27,6 @@ cs_pin = board.D8
 dout_pin1 = 17
 pd_sck_pin1 = 27
 
-
 dout_pin2 = 22
 pd_sck_pin2 = 23
 

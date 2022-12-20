@@ -1,15 +1,12 @@
 import time
 from LickLibrary import Control
 
-#[BATTERY]
-# LCK: <DETECTION ON, > DETECTION OFF
-# SGN: <DIGITAL, >ANALOG
-#[BOARD EDGE]
+use_analog = True
 
-detector = Control.LickDetector(analog=False)
+detector = Control.LickDetector(analog=use_analog)
 
-for i in range(10):
-    data  = detector.get_lick()
+for i in range(1000):
+    data = detector.get_lick()
     print(data)
     time.sleep(.5)
 

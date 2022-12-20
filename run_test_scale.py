@@ -1,12 +1,12 @@
 from LickLibrary import myScales
 import time
 
-scales = myScales.myScales()
+scale = myScales.myScale(scale_id='lick')
 
 #scales.calibrate(scale_nr=2)
 #scales.calibrate(scale_nr=2)
 
 while True:
-    r = scales.measure()
+    r = scale.measure()
     print(r)
     time.sleep(0.5)
