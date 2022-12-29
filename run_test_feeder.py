@@ -4,9 +4,10 @@ from LickLibrary import Control
 
 feeder = Control.Feeder()
 
-for i in range(10):
+for i in range(1000):
+    print(i)
     feeder.on()
-    time.sleep(1)
+    time.sleep(5)
     feeder.off()
-    time.sleep(1)
+    time.sleep(3)
 

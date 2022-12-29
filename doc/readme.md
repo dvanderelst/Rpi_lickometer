@@ -6,8 +6,6 @@
 
 `pip3 install adafruit-circuitpython-mcp3xxx`
 
-`pip3 install adafruit-circuitpython-ssd1306`
-
 `pip3 install pillow`
 
 ## Lick detector jumper
