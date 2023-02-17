@@ -1,7 +1,6 @@
 import time
 
 from LickLibrary import Control
-a
 feeder = Control.Feeder()
 
 for i in range(1000):
