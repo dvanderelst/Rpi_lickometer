@@ -21,6 +21,13 @@ class myAnalog:
         self.chan7 = AnalogIn(mcp, MCP.P7)
         self.channels = [self.chan0, self.chan1, self.chan2, self.chan3, self.chan4, self.chan5, self.chan6, self.chan7]
 
+    def get_all_values(self):
+        all_values = []
+        for c in self.channels:
+            value = c.value
+            all_values.append(value)
+        return all_values
+
     def get_value(self, channel):
         c = self.channels[channel]
         return c.value

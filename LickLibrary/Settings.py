@@ -16,10 +16,22 @@ omit_fields = ['row_id']
 GPIO.setmode(GPIO.BCM)
 lick_pin = 5 #29
 button_pin = 16 #36
+button_led_pin = 24 #36
 feeder_pin = 6 #31
 
-e_tape_channel = 7
-analog_lick_channel = 2
+analog_lick_channel = 0
 max_analog_value = 65472
 cs_pin = board.D8
 
+#scale 1
+dout_pin1 = 17
+pd_sck_pin1 = 27
+
+dout_pin2 = 22
+pd_sck_pin2 = 23
+
+offset1 = 8450739.56250
+ratio1 = 515.64665
+
+offset2 = 8409164.31250
+ratio2 = 486.28204
