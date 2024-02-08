@@ -1,6 +1,12 @@
 import pickle
 from collections.abc import Iterable  # drop `.abc` with Python 2.7 or lower
 
+def lst2line(lst):
+    txt = ''
+    for i in lst: txt = txt + str(i) + ','
+    txt = txt.rstrip(',')
+    return txt
+
 
 def isList(obj):
     return isinstance(obj, list)

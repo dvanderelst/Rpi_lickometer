@@ -74,17 +74,21 @@ class myKeypad():
             return False
 
 
-# test code
-def main():
-    keypad = keypad_module(0x20)
-    while 1:
-        ch = keypad.getch()
-        print(ch)
-
-        if ch == 'D':
-            exit()
-
-
-# don't runt test code if we are imported
+# # test code
+# def main():
+#     keypad = keypad_module(0x20)
+#     while 1:
+#         ch = keypad.getch()
+#         print(str(ch))
+#         print(ch)
+#
+#         if ch == 'D':
+#             exit()
+#
+#
+# # don't runt test code if we are imported
 if __name__ == '__main__':
-    main()
+    keypad = myKeypad()
+    while True:
+        key = keypad.get_key()
+        print(key)
