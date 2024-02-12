@@ -6,3 +6,5 @@ venv/
 data/
 
 recordings/
+
+LickLibrary/__pycache__/
