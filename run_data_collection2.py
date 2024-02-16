@@ -14,14 +14,16 @@ sample_rate = 100
 lick_threshold = 1000
 print_interval = 1
 
-min_lick_duration = 0.1 #in seconds
+min_lick_duration = 0.05 #in seconds
 max_lick_duration = 1 #in seconds
 max_bout_gap_duration = 1 #in seconds
 min_licks_per_bout = 3
 bouts_to_deployment = 3
 deployment_time = 3 #in seconds
+max_deployments = 100
 ############################################
 max_counter_value = 1000000
+number_of_deployments = 0
 
 detector = Control.LickDetector(analog=use_analog)
 keypad = myKeypad.myKeypad()
@@ -64,14 +66,15 @@ with open(output_file, 'w') as file:
         enough_time = True#time_since_last_lick > max_bout_gap_duration
         enough_licks = lick_count >= min_licks_per_bout
 
-        if enough_bouts and enough_time and enough_licks:
+        if enough_bouts and enough_time and enough_licks and number_of_deployments < max_deployments:
             action = 'deploying'
             feeder.on()
             time.sleep(deployment_time)
             feeder.off()
             lick_counter.reset_bout_count()
+            number_of_deployments = number_of_deployments + 1
 
-        line = Misc.lst2line([timestamp, clock_time, action, value, lick_length, lick_count, bout_count, key])
+        line = Misc.lst2line([timestamp, clock_time, action, value, lick_length, lick_count, bout_count, key, number_of_deployments])
         file.write(line + '\n')
 
         time_taken = time.time() - clock_time
