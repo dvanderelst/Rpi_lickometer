@@ -4,43 +4,45 @@ from LickLibrary import myTimeSeriesPlot
 from matplotlib import pyplot
 from scipy.interpolate import interp1d
 from LickLibrary import LickCounter
-from matplotlib import pyplot
+from matplotlib import pyplot as plt
 
-file_name = 'recordings/Thu_Feb_8_14_20_14_2024.txt'
-time_column = 4
-lick_column = 1
-rate = 100
-
+file_name = 'recordings/Tue_Feb_27_16_34_18_2024_copy.txt'
+#file_name = 'recordings/Thu_Feb_22_13_48_33_2024.txt'
 data = pandas.read_csv(file_name,skiprows=1, header=None)
-data = data.iloc[:,[time_column, lick_column]]
-data.columns = ['time', 'lick']
-data['binary'] =  data['lick'] > 10000
-data['time'] = data['time'] - numpy.min(data['time'])
-#data = data.iloc[15500:17000,:]
+values = data.iloc[:, 2]
+values = numpy.array(values)
 
+licks = data.iloc[:, 3]
+licks = numpy.array(licks)
 
-min_lick_length = 3
-max_lick_length = 10
-max_bout_gap = 20
-min_licks_per_bout = 3
+bouts = data.iloc[:, 4]
+bouts = numpy.array(bouts)
 
-lc = LickCounter.LickCounter(min_lick_length, max_lick_length, max_bout_gap, min_licks_per_bout)
-lc.process_samples(data.binary)
-lc.plot_history()
+timing = data.iloc[:, 0]
+timing = pandas.to_datetime(timing)
+first_time = timing[0]
+timing = timing - first_time
+timing = timing.dt.total_seconds()
+differences = numpy.diff(timing)
 
-# ts = myTimeSeriesPlot.myTimeSeriesPlot(data.binary, 100)
-# ts.measure_time_difference()
+# Plot data on each subplot
+fig, (ax1, ax2, ax3) = plt.subplots(3, 1, sharex=True)
+ax1.plot(timing, values, '.-')
+ax1.grid()
 
-# x = data.loc[:,'time']
-# y = data.loc[:,'lick']
-#
-# start_time = numpy.min(x)
-# end_time = numpy.max(x)
-#
-# interpolation_x = numpy.arange(start_time, end_time, 1/rate)
-# interp = interp1d(x,y, kind='nearest')
-# new_y= interp(interpolation_x)
-#
-# pyplot.figure()
-# pyplot.plot(interpolation_x, new_y)
-# pyplot.show()
+ax2.plot(timing, licks, '.-')
+ax2.grid()
+
+ax3.plot(timing, bouts, '.-')
+ax3.set_xlabel('x')
+ax3.grid()
+
+# Adjust layout to prevent overlap
+plt.tight_layout()
+
+# Show the plot
+plt.show()
+
+plt.figure()
+plt.plot(differences)
+plt.show()

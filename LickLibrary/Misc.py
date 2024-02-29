@@ -1,6 +1,24 @@
 import pickle
 from collections.abc import Iterable  # drop `.abc` with Python 2.7 or lower
 
+
+class blinker:
+    def __init__(self, values='-+'):
+        self.length = len(values)
+        self.index = 0
+        self.values = values
+
+    def tick(self):
+        self.index = self.index + 1
+        if self.index == self.length: self.index = 0
+
+    def get_value(self):
+        value = self.values[self.index]
+        self.tick()
+        return value
+
+
+
 def lst2line(lst):
     txt = ''
     for i in lst: txt = txt + str(i) + ','
